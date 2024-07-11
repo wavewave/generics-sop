@@ -72,7 +72,7 @@ library
                        ghc-prim             >= 0.3  && < 0.12
   hs-source-dirs:      src
   default-language:    Haskell2010
-  ghc-options:         -Wall
+  ghc-options:         -Wall -Wl,-read_only_relocs,suppress
   default-extensions:  CPP
                        ScopedTypeVariables
                        TypeFamilies
